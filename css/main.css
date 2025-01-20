@@ -1,0 +1,37 @@
+/* CSS HEX
+--black: #000000ff;
+--charcoal: #2f4550ff;
+--paynes-gray: #586f7cff;
+--light-blue: #b8dbd9ff;
+--ghost-white: #f4f4f9ff;
+*/
+
+.body{
+    background-color: black;
+    color:#B8DBD9 ;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #B8DBD9;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #F4F4F9;
+    color: #2f4550ff;
+}
+
+.topnav a.active{
+    background-color: #586f7cff;
+    color: #F4F4F9;
+}
