@@ -9,6 +9,7 @@
 .body{
     background-color: black;
     color:#B8DBD9 ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .topnav {
@@ -34,4 +35,30 @@
 .topnav a.active{
     background-color: #586f7cff;
     color: #F4F4F9;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.topnav button{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.topnav button:hover {
+    background-color: #F4F4F9;
+    color: #2f4550ff;  
+}
+
+.title{
+    text-align: center;
 }
