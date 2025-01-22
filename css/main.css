@@ -9,6 +9,8 @@
 .body{
     background-color: black;
     color:#B8DBD9 ;
+    background-image: url("../img/4282105.webp");
+    margin: 0
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -62,3 +64,4 @@
 .title{
     text-align: center;
 }
+
