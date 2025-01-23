@@ -65,3 +65,13 @@
     text-align: center;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.container > div {
+    border: 1px solid;
+    text-align: center;
+}
